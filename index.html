@@ -13,8 +13,10 @@
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-     <link rel="stylesheet" href="./css/animate.css">
-    </head>
+    <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+</head>
 
 <body>
     <div class="wrapper">
@@ -33,13 +35,18 @@
                     <a href="#"><span>CONS</span>TRUCT
                     </a>
                     <nav>
-                        <ul class="menu">
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Features</a></li>
-                            <li><a href="#">Projects</a></li>
-                            <li><a href="#">Service</a></li>
-                            <li><a href="#">Contact us</a></li>
+                        <ul class="menu" id="menu">
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#features">Features</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                            <li><a href="#service">Service</a></li>
+                            <li><a href="#contact us">Contact us</a></li>
                         </ul>
+                        <span class="burger" id="burger">
+                            <i></i>
+                            <i></i>
+                            <i></i>
+                        </span>
                     </nav>
                     <span class="search">
                         <i class="fas fa-search"></i>
@@ -62,7 +69,7 @@
                 </a>
             </div>
         </section>
-        <section class="container3">
+        <section class="container3" id="home">
             <div class="center">
                 <p>We offer</p>
                 <h2><span>Welcome</span> To Free Psd Construction Template</h2>
@@ -113,13 +120,13 @@
                 </div>
             </div>
         </section>
-        <section class="container4">
+        <section class="container4" id="service">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="item wow bounceInLeft col-xl-6" data-wow-duration="10s">
+                    <div class="item wow bounceInLeft col-xl-6" data-wow-duration="5s">
                         <img class="left" src="./image/left.png" alt="left photo">
                     </div>
-                    <div class="item wow fadeInRight col-xl-5" data-wow-iteration="5s">
+                    <div class="item wow fadeInRight col-xl-5" data-wow-iteration="3s">
                         <h2>Our Service</h2>
                         <ul class="listt">
                             <li>
@@ -136,7 +143,7 @@
                                 <span>
                                     <img class="drile" src="./image/drile.png" alt="drile">
                                 </span>
-                                <h5>Repair Service</h5>
+                                <h5>Wall Painting</h5>
                                 <p class="description">
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                     Quis dolorem ipsum, eius, nihil ullam dolores id
@@ -146,7 +153,7 @@
                                 <span>
                                     <img class="drile" src="./image/drile.png" alt="drile">
                                 </span>
-                                <h5>Repair Service</h5>
+                                <h5>Premium Support</h5>
                                 <p class="description">
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                     Quis dolorem ipsum, eius, nihil ullam dolores id
@@ -238,8 +245,12 @@
                     </div>
                 </div>
         </section>
-        <section class="container7">
+        <section class="container7" id="projects">
             <div class="center">
+                <p>We offer</p>
+                <h2><span>View</span> Our Projects Gallary</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+                <p>ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
                 <ul>
                     <li>All works</li>
                     <li>Construction</li>
@@ -262,11 +273,19 @@
                 </div>
             </div>
         </section>
-        <section class="container8">
-            <div class="container">
+        <section class="container8" id="contact us">
+            <div class="center">
+                <p>We offer</p>
+                <h2><span>Team</span> Members</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+                <p>ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
+            </div>
+            <div class="container wow slideInUp" data-wow-duration="9s">
                 <div class="row justify-content-around">
                     <div class="item col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
                         <img src="./image/icon1.png" alt="icon1">
+                        <p class="name">Timothy Reid</p>
+                        <p>Project Manajer</p>
                         <div class="social">
                             <span><i class="fab fa-facebook-f"></i></span>
                             <span><i class="fab fa-twitter"></i></span>
@@ -276,6 +295,8 @@
                     </div>
                     <div class="item col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
                         <img src="./image/icon2.png" alt="icon2">
+                        <p class="name">Marta Doe</p>
+                        <p>Project Manajer</p>
                         <div class="social">
                             <span><i class="fab fa-facebook-f"></i></span>
                             <span><i class="fab fa-twitter"></i></span>
@@ -285,6 +306,8 @@
                     </div>
                     <div class="item col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
                         <img src="./image/icon3.png" alt="icon3">
+                        <p class="name">Robiul Siddike</p>
+                        <p>Project Manajer</p>
                         <div class="social">
                             <span><i class="fab fa-facebook-f"></i></span>
                             <span><i class="fab fa-twitter"></i></span>
@@ -295,6 +318,95 @@
                 </div>
             </div>
         </section>
+        <section class="container9">
+            <div class="center">
+                <p>We offer</p>
+                <h2><span>Client</span> Testimonials</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+                <p>ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
+            </div>
+            <div class="container">
+                <div class="item">
+                    <img src="./image/face.png" alt="face"></<img>
+                    <div class="job">
+                        <p class="first"> John Doe</p>
+                        <p class="second">Owner Project</p>
+                    </div>
+                    <div style="clear: left"></div>
+                </div>
+                <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur</p>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+        </section>
+        <section class="container10" id="features">
+            <div class="center">
+                <p>We offer</p>
+                <h2><span>World</span> News Construction</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+                <p>ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
+            </div>
+            <div class="container">
+                <div class="row justify-content-around">
+                    <div class="item">
+                        <img src="./image/news1.png" alt="news1">
+                        <h4>The Intersection Where Blockchain Meets Energy</h4>
+                        <p class="top">Lorem ipsum d olor sit amet, consectetur adipisicing
+                            elit, sed do eiusmod tempor incididunt</p>
+                        <p class="left">01 Jan </p>
+                        <p class="right">Read more</p>
+                    </div>
+                    <div class="item">
+                        <img src="./image/news2.png" alt="news1">
+                        <h4>The Intersection Where Blockchain Meets Energy</h4>
+                        <p class="top">Lorem ipsum d olor sit amet, consectetur adipisicing
+                            elit, sed do eiusmod tempor incididunt</p>
+                        <p class="left">01 Jan </p>
+                        <p class="right">Read more</p>
+                    </div>
+                    <div class="item">
+                        <img src="./image/news3.png" alt="news1">
+                        <h4>The Intersection Where Blockchain Meets Energy</h4>
+                        <p class="top">Lorem ipsum d olor sit amet, consectetur adipisicing
+                            elit, sed do eiusmod tempor incididunt</p>
+                        <p class="left">01 Jan </p>
+                        <p class="right">Read more</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <h6>Don't miss out, Stay updated</h6>
+            <div class="mail">
+                <p class="adress">Enter your email adress</p>
+                 <button class="button-subscribe">Subscribe</button>
+            </div>
+            <p class="end">Copyright © 2018, free-psd-templates.com Template Made By ree-psd-templates designers.
+                All trademarks and copyrights belong to their respective owners.</p>
+        </footer>
+        <div class="owl-carousel owl-theme">
+            <div class="item"><img src="./image/Ico2.png"></img></div>
+            <div class="item"><img src="./repace.png"></img></div>
+            <div class="item"><h4>3</h4></div>
+            <div class="item"><h4>4</h4></div>
+            <div class="item"><h4>5</h4></div>
+            <div class="item"><h4>6</h4></div>
+            <div class="item"><h4>7</h4></div>
+            <div class="item"><h4>8</h4></div>
+            <div class="item"><h4>9</h4></div>
+            <div class="item"><h4>10</h4></div>
+            <div class="item"><h4>11</h4></div>
+            <div class="item"><h4>12</h4></div>
+        </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
@@ -308,7 +420,27 @@
     <script src="./js/wow.min.js"></script>
     <script>
         new WOW().init();
-        </script>
+    </script>
+    <script src="./js/script.js"></script>
+    <script src="./js/owl.carousel.min.js"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+    </script>
 </body>
 
 </html>
